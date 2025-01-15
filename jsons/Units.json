@@ -1,17 +1,48 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"name": "Defense Satellite",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 6,
+		"interceptRange": 6,
+		"cost": 200,
+		"requiredTech": "Satelites",
+		"upgradesTo": "Laser Satellite",
+		"uniques": ["Satelite",
+			"[100]% chance to intercept air attacks",
+			"[+300]% Damage when intercepting",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+200]% Strength <vs [Satellite] units>",
+			"[-99]% Strength <vs cities> <when attacking>",
+			"Consumes [1] [Circuits]","Consumes [1] [Power]","Damage taken from interception reduced by [100]%",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "MissileLaunch"
+	},
+		{
+		"name": "Combat Drone",
+		"unitType": "Helicopter",
+		"movement": 3,
+		"strength": 40,
+		"rangedStrength": 40,
+		"range": 1,
+		"interceptRange": 1,
+		"cost": 120,
+		"requiredTech": "Robotics",
+		"requiredResource": "Circuits",
+		"uniques": [
+			"Drone",
+			"[100]% chance to intercept air attacks",
+			"[+100]% Damage when intercepting <vs [Air] units>",
+			"[+150]% Strength <vs [non-air] units>",
+			"[-50]% Strength <vs [Air] units>",
+			"Cannot intercept [Satellite] units",
+			"Cannot intercept [Missile] units",
+			"[+33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "MissileLaunch"
 	}
 ]
