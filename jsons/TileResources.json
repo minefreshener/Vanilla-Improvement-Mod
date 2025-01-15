@@ -2,6 +2,29 @@
 	{
 		"name": "Power",
 		"resourceType": "Strategic",
+		"science": 1
+	},
+	{
+		"name": "Circuits",
+		"resourceType": "Strategic",
+		"science": 1
+	},
+	{
+		"name": "Advanced Weapons",
+		"resourceType": "Strategic",
 		"production": 1
+	},
+	{
+		"name": "Bronze",
+		"resourceType": "Strategic",
+		"production": 1
+	},
+	{
+		"name": "Electronics",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Appliances",
+		"resourceType": "Luxury"
 	},
 ]
