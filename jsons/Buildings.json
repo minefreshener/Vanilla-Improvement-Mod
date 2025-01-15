@@ -28,18 +28,6 @@
 		"requiredNearbyImprovedResources": ["Iron","Aluminum","Silver","Gold Ore","Uranium","Gems","Copper"],
 		"requiredTech": "Dynamite"
 	},
-		{
-		"name": "Fusion Reactor",
-		"cost": 3750,
-		"isNationalWonder": true,
-		"uniques": [
-			"Provides [8] [Power]",
-			"Provides [2] [Uranium]",
-			"Can only be built <in [Capital] cities>",
-			"[+1 Production] [in all cities connected to capital]"
-		],
-		"requiredTech": "Nuclear Fusion"
-	},
 	{
 		"name": "Mech Factory",
 		"hurryCostModifier": 25,
@@ -190,5 +178,184 @@
 		"production": 1,
 		"uniques": ["[+15]% Production when constructing [Missile] units [in this city]"],
 		"requiredTech": "Advanced Ballistics"
+	},
+		{
+		"name": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [4] population [in all cities]","[-10]% Unhappiness from [Population] [in all cities]","Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council]>","Destroyed when the city is captured","Only available <after adopting [Republic]>"]
+	},
+	{
+		"name": "Senate",
+		"replaces": "Congress",
+		"uniqueTo": "Rome",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Gold] per [4] population [in all cities]","[-10]% Unhappiness from [Population] [in all cities]",
+			"Can only be built <in [Capital] cities>","Only available <in cities without a [Consulate]>","Destroyed when the city is captured",
+			"Only available <after adopting [Republic]>"]
+	},
+	{
+		"name": "Parliament",
+		"replaces": "Congress",
+		"uniqueTo": "England",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Science] per [4] population [in all cities]","[-10]% Unhappiness from [Population] [in all cities]",
+			"Can only be built <in [Capital] cities>","Destroyed when the city is captured","Only available <after adopting [Monarchy]>"]
+	},
+	{
+		"name": "Council",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+10]% growth [in all cities]","[+5]% Production when constructing [All] buildings [in this city]",
+			"Can only be built <in [Capital] cities>","Only available <in cities without a [Congress]>","Destroyed when the city is captured",
+			"Only available <after adopting [Legalism]>"]
+	},
+	{
+		"name": "Consulate",
+		"replaces": "Council",
+		"uniqueTo": "Rome",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": ["Great General provides double combat bonus","[+20]% Production when constructing [Military] units [in all cities]",
+			"Can only be built <in [Capital] cities>","Only available <in cities without a [Senate]>","Destroyed when the city is captured",
+			"Only available <after adopting [Legalism]>"]
+	},
+	{
+		"name": "War Council",
+		"cost": 50,
+		"requiredTech": "Military Science",
+		"uniques": ["[+1 Production] per [5] population [in all cities]","[+20]% Production when constructing [Military] units [in all cities]",
+			"Can only be built <in [Capital] cities>","Destroyed when the city is captured","Only available <after adopting [Military Caste]>"]
+	},
+	{
+		"name": "Economic Ministry",
+		"cost": 50,
+		"requiredTech": "Economics",
+		"uniques": ["[+1 Gold] per [5] population [in all cities]","[+5]% Production when constructing [All] buildings [in this city]",
+			"Can only be built <in [Capital] cities>","Destroyed when the city is captured","Only available <after adopting [Planned Economy]>"]
+	},
+		{
+		"name": "Conscription Office",
+		"cost": 50,
+		"requiredTech": "Military Science",
+		"uniques": ["[+20]% Production when constructing [Military] units [in all cities]","Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured","Only available <after adopting [Militarism]>"]
+	},
+	{
+		"name": "Broadcast Network",
+		"culture": 2,
+		"uniques": ["[+1 Happiness] per [2] social policies adopted","Only available <in cities with a [Broadcast Tower]>","Only available <after adopting [Free Speech]>"],
+		"isNationalWonder": true,
+		"requiredTech": "Telecommunications"
+	},
+	{
+		"name": "Town Hall",
+		"maintenance": 1,
+		"uniques": ["[-10]% Culture cost of natural border growth [in this city]","[-10]% Gold cost of acquiring tiles [in this city]",
+			"[+1 Happiness, +1 Culture] [in this city] <when above [0] [Power]>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Casino",
+		"specialistSlots": { "Merchant": 1 },
+		"happiness": -1,
+		"uniques": [
+			"[+1 Gold] per [3] population [in this city]","[+1 Happiness, +1 Culture, +1 Gold] [in this city] <when above [0] [Power]>",
+			"[+1 Gold] [in this city] <with [Wheat]>","[+1 Gold] [in this city] <with [Incense]>"],
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Communications Network",
+		"isNationalWonder": true,
+		"requiredTech": "Telecommunications",
+		"cost": 600,
+		"uniques": ["[+3 Production, +3 Culture] [in all cities connected to capital]","[+15]% [Production] [in all cities connected to capital]",
+			"[+15]% [Culture] [in all cities connected to capital]"]
+	},
+	{
+		"name": "Oil Plant",
+		"maintenance": 1,
+		"cost": 150,
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [2] [Power]","[-1 Food, +3 Production] from [Oil] tiles [in this city]",
+			"Consumes [1] [Oil]"],
+		"requiredTech": "Biology"
+	},
+	{
+		"name": "Biofuel Refinery",
+		"requiredNearbyImprovedResources": ["Cattle", "Sheep", "Horses"],
+		"maintenance": 2,
+		"food": -1,
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Oil] <when above [-2] [Power]>","Consumes [1] [Power]"],
+		"requiredTech": "Ecology"
+	},
+	{
+		"name": "Hydro Plant",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be on [River]",
+			"Provides [1] [Power]",
+			"Only available <in cities with a [Water Mill]>"
+		],
+		"requiredTech": "Electricity"
+	},
+		{
+		"name": "Tidal Plant",
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Coast]","Provides [1] [Power]",],
+		"requiredTech": "Ecology"
+	},
+		{
+		"name": "Coal Power Plant",
+		"maintenance": 4,
+		"cost": 250,
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "food": -10 },
+		"uniques": ["Provides [6] [Power]","Provides [2] [Power] <when above [-2] [Coal]>","Consumes [2] [Coal]",
+			"Only available <in cities without a [Solar Plant]>","Only available <in cities with a [Factory]>"],
+		"requiredTech": "Combustion"
+	},
+		{
+		"name": "Fission Reactor",
+		"maintenance": 4,
+		"cost": 750,
+		"hurryCostModifier": 33,
+		"uniques": ["Consumes [1] [Uranium]","Provides [6] [Power]","[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
+			"[+33]% Production when constructing [Nuclear Weapon] units [in this city]","Only available <in cities without a [Solar Plant]>",
+			"Only available <in cities with a [Factory]>"],
+		"requiredTech": "Nuclear Fission"
+	},
+	{
+		"name": "Desalination Plant",
+		"gold": 5,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Coast]","[+1 Food] from [Coast] tiles [in this city]","[+1 Food] [in this city] <when above [0] [Power]>",
+			"Provides [1] [Salt]","Consumes [1] [Power]"],
+		"requiredTech": "Ecology"
+	},
+		{
+		"name": "Fusion Reactor",
+		"cost": 3750,
+		"isNationalWonder": true,
+		"uniques": ["Provides [6] [Power]","Provides [2] [Uranium]","Can only be built <in [Capital] cities>","[+1 Production] [in all cities connected to capital]"],
+		"requiredTech": "Nuclear Fusion"
+	},
+		{
+		"name": "Megachurch",
+		"faith": 3,
+		"percentStatBonus": {"faith": 10},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Telecommunications",
+		"uniques": ["Only available <in cities with a [Monastery]>","Only available <when religion is enabled>",
+			"[+50]% Natural religion spread [in this city] <when above [0] [Power]>","Consumes [1] [Power]","Only available <after adopting [Organized Religion]>"]
 	}
 ]
