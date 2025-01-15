@@ -8,19 +8,6 @@
 		"requiredTech": "Gunpowder"
 	},
 	{
-		"name": "Marksman's Range",
-		"replaces": "Gunsmith",
-		"uniqueTo": "Zvongombe",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"production": 2,
-		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]",
-			"[+15]% Production when constructing [Ranged Gunpowder] units [in this city]",
-			"New [Gunpowder] units start with [15] Experience [in this city]",
-			"New [Ranged Gunpowder] units start with [15] Experience [in this city]","Destroyed when the city is captured"],
-		"requiredTech": "Gunpowder"
-	},
-	{
 		"name": "Gun Range",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -58,7 +45,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"production": 1,
-		"uniques": ["[+15]% Production when constructing [Mech] units [in this city]"],
+		"uniques": ["[+15]% Production when constructing [Mech] units [in this city]","New [Mech] units start with [15] Experience [in this city]"],
 		"requiredTech": "Robotics"
 	},
 	{
@@ -76,6 +63,13 @@
 		"production": 1,
 		"uniques": ["[+15]% Production when constructing [Archery] units [in this city]"],
 		"requiredTech": "Construction"
+	},
+		{
+		"name": "Archery Range",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Archery] units start with [15] Experience [in this city]"],
+		"requiredTech": "Military Science"
 	},
 		{
 		"name": "Siege Works",
@@ -101,12 +95,20 @@
 		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]","Provides [1] [Horses]"],
 		"requiredTech": "Civil Service"
 	},
+	{
+		"name": "Tourney Field",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"science": 1,
+		"uniques": ["New [Mounted] units start with [15] Experience [in this city]","New [Feudal] units start with [15] Experience [in this city]"],
+		"requiredTech": "Military Science"
+	},
 			{
-		"name": "Fuedal Estate",
+		"name": "Feudal Estate",
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"culture": 2,
-		"uniques": ["[+33]% Production when constructing [Fuedal] units [in this city]","New [Fuedal] units start with [30] Experience [in this city]"],
+		"uniques": ["[+33]% Production when constructing [Feudal] units [in this city]","New [Feudal] units start with [30] Experience [in this city]"],
 		"requiredTech": "Chivalry"
 	},
 	{
