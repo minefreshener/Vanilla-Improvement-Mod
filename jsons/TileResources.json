@@ -15,11 +15,6 @@
 		"production": 1
 	},
 	{
-		"name": "Bronze",
-		"resourceType": "Strategic",
-		"production": 1
-	},
-	{
 		"name": "Electronics",
 		"resourceType": "Luxury"
 	},
