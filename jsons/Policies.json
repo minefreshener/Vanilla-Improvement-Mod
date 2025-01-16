@@ -475,7 +475,7 @@
             },
             {
                 "name": "Military Innovation",
-                "uniques": ["[-33]% Gold cost of upgrading <for [Military] units>","[+1 Science] from every [Siege Works]","[+1 Science] from every [Military Academy]",
+                "uniques": ["[-33]% Gold cost of upgrading <for [Military] units>",
                     "[+1 Science] from every [Barracks]","[+1 Science] from every [Armory]","[+1 Science] from every [Military Academy]","[+2 Science] from every [War Council]"],
                 "requires": ["Sovereignty","Combat Analysis"],
                 "row": 3,
