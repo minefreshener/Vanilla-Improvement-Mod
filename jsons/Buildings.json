@@ -11,14 +11,13 @@
 		"name": "Gun Range",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"science": 1,
 		"uniques": ["New [Gunpowder] units start with [15] Experience [in this city]"],
 		"requiredTech": "Rifling"
 	},
 		{
 		"name": "Mining Tunnels",
 		"maintenance": 1,
-		"production": 1,
+		"production": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Science] from [Mountain] tiles [in this city]",
@@ -32,7 +31,7 @@
 		"name": "Mech Factory",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"production": 1,
+		"production": 2,
 		"uniques": ["[+15]% Production when constructing [Mech] units [in this city]","New [Mech] units start with [15] Experience [in this city]"],
 		"requiredTech": "Robotics"
 	},
@@ -57,7 +56,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["New [Archery] units start with [15] Experience [in this city]"],
-		"requiredTech": "Military Science"
+		"requiredTech": "Construction"
 	},
 		{
 		"name": "Siege Works",
@@ -87,9 +86,9 @@
 		"name": "Tourney Field",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"science": 1,
+		"happiness": 1,
 		"uniques": ["New [Mounted] units start with [15] Experience [in this city]","New [Feudal] units start with [15] Experience [in this city]"],
-		"requiredTech": "Military Science"
+		"requiredTech": "Chivalry"
 	},
 			{
 		"name": "Feudal Estate",
