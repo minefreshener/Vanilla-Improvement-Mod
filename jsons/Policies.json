@@ -474,6 +474,13 @@
                 "column": 6
             },
             {
+                "name": "Military Innovation",
+                "uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
+                "requires": ["Sovereignty","Combat Analysis"],
+                "row": 3,
+                "column": 5
+            },
+            {
                 "name": "Free Thought",
                 "uniques": [
                     "[+1 Science] from every [Trading post]",
@@ -518,8 +525,7 @@
         },
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
-            "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Order]>"
+            "Only available <before adopting [Autocracy]>"
         ],
         "policies": [
             {
@@ -582,7 +588,6 @@
         "uniques": [
             "[-33]% maintenance costs <for [All] units>",
             "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
-            "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>"
         ],
         "policies": [
@@ -653,14 +658,13 @@
         },
         "uniques": [
             "[+1 Happiness] [in all cities]",
-            "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Freedom]>"
+            "Only available <before adopting [Autocracy]>"
         ],
         "policies": [
             {
                 "name": "United Front",
                 "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions",
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
                   "[+2 Culture] from every [War Council]"
                 ],
                 "row": 1,
@@ -687,7 +691,7 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[-15]% maintenance cost for buildings [in all cities]","[+1 Production] from every [Town hall]","[+2 Gold] from every [Congress]"
+                    "[-15]% maintenance cost for buildings [in all cities]","[+1 Production] from every [Town Hall]","[+2 Gold] from every [Congress]"
                 ],
                 "row": 2,
                 "column": 3
