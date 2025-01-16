@@ -209,7 +209,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+                    "Earn [20]% of killed [Military] unit's [Cost] as [Culture]"
                 ]
             }
         ]
@@ -251,6 +251,13 @@
                 "uniques": ["[+10]% [Gold] from every [Temple]","[+3 Gold] from every [Megachurch]"],
                 "requires": ["Organized Religion"],
                 "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Religious Military Orders",
+                "uniques": ["Earn [20]% of killed [Military] unit's [Strength] as [Faith]"],
+                "requires": ["Theocracy"],
+                "row": 3,
                 "column": 1
             },
             {
@@ -384,6 +391,12 @@
                 "column": 4
             },
             {
+                "name": "Military Looting",
+                "uniques": ["Earn [20]% of killed [Military] unit's [Strength] as [Gold]"],
+                "row": 1,
+                "column": 6
+            },
+            {
                 "name": "Merchant Navy",
                 "uniques": ["[+3 Production] [in all coastal cities]","[+1 Gold] from every [Docklands]"],
                 "requires": ["Naval Tradition"],
@@ -455,6 +468,12 @@
                 "column": 4
             },
             {
+                "name": "Combat Analysis",
+                "uniques": ["Earn [20]% of killed [Military] unit's [Strength] as [Science]"],
+                "row": 1,
+                "column": 6
+            },
+            {
                 "name": "Free Thought",
                 "uniques": [
                     "[+1 Science] from every [Trading post]",
@@ -505,13 +524,13 @@
         "policies": [
             {
                 "name": "Constitution",
-                "uniques": ["[+2 Culture] from every [Wonder]", "[-100]% weight to this choice for AI decisions","[+2 Culture] from every [Congress]"],
+                "uniques": ["[+2 Culture] from every [Wonder]","[+2 Culture] from every [Congress]"],
                 "row": 1,
                 "column": 1
             },
             {
                 "name": "Universal Suffrage",
-                "uniques": ["[+33]% Strength for cities <when defending>", "[-100]% weight to this choice for AI decisions","[+1 Happiness] from every [Congress]"],
+                "uniques": ["[+33]% Strength for cities <when defending>","[+1 Happiness] from every [Congress]"],
                 "row": 1,
                 "column": 3
             },
