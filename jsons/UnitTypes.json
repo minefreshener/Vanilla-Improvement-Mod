@@ -1,1 +1,11 @@
-
+[
+      {
+        "name": "Helicopter",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles","May travel on Water tiles without embarking","Ignores Zone of Control"]
+    },
+      {
+        "name": "Mech",
+        "movementType": "Land"
+    }
+]
