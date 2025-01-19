@@ -1606,5 +1606,69 @@
 		"upgradesTo": "Musketman",
 		"uniques": ["[+50]% Strength <after discovering [Civil Service]>"],
 		"attackSound": "throw"
-	}
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 7,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Brute",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Jaguar",
+		"unitType": "Sword",
+		"uniqueTo": "Aztecs",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 12,
+		"cost": 100,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Steel",
+		"promotions": ["[Jaguar] ability","Woodsman"],
+		"upgradesTo": "Longswordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Maori Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Polynesia",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 12,
+		"cost": 100,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Steel",
+		"promotions": ["Haka War Dance"],
+		"upgradesTo": "Longswordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["[+50]% Strength <after discovering [Iron Working]>","[+50]% Strength <after discovering [Chivalry]>",
+			"[+50]% Strength <after discovering [Metallurgy]>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
 ]
