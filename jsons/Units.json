@@ -1670,5 +1670,5 @@
 			"[+50]% Strength <after discovering [Metallurgy]>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
-	},
+	}
 ]
