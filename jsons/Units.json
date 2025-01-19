@@ -67,6 +67,15 @@
 		"uniques": ["Never appears as a Barbarian unit","Can move after attacking","Consumes [1] [Power]"],
 		"attackSound": "tankshot"
 	},
+	{
+		"name": "Future Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 80,
+		"cost": 375,
+		"requiredTech": "Nanotechnology",
+		"attackSound": "phasers"
+	},
 		{
 		"name": "Missile Cruiser",
 		"unitType": "Ranged Water",
@@ -427,6 +436,7 @@
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"obsoleteTech": "Nanotechnology",
+		"upgradesTo": "Future Infantry",
 		"uniques": ["[+25]% Strength <after discovering [Mobile Tactics]>"],
 		"attackSound": "shot"
 	},
