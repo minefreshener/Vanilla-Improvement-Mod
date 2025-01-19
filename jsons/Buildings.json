@@ -264,9 +264,9 @@
 	{
 		"name": "Casino",
 		"specialistSlots": { "Merchant": 1 },
-		"happiness": -1,
+		"happiness": -3,
 		"uniques": [
-			"[+1 Gold] per [3] population [in this city]","[+1 Happiness, +1 Culture, +1 Gold] [in this city] <when above [0] [Power]>",
+			"[+1 Gold] per [3] population [in this city]","[+1 Happiness, +1 Gold] [in this city] <when above [0] [Power]>",
 			"[+1 Gold] [in this city] <with [Wheat]>","[+1 Gold] [in this city] <with [Incense]>"],
 		"requiredTech": "Electricity"
 	},
@@ -295,6 +295,29 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Provides [1] [Oil] <when above [-2] [Power]>","Consumes [1] [Power]"],
 		"requiredTech": "Ecology"
+	},
+	{
+		"name": "Circuit Factory",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Circuits]","[+1 Science] from [Manufactory] tiles [in this city]",
+			"Consumes [1] [Power]"],
+		"requiredTech": "Computers"
+	},
+	{
+		"name": "Cannery",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Manufactory] tiles [in this city]",
+			"Consumes [1] [Power]"],
+		"requiredTech": "Replaceable Parts"
+	},
+	{
+		"name": "Printing House",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Happiness, +1 Culture] [in this city] <when above [0] [Power]>","[+1 Science, +1 Culture] per [4] population [in this city]"],
+		"requiredTech": "Printing Press"
 	},
 	{
 		"name": "Hydro Plant",
