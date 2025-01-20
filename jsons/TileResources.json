@@ -10,15 +10,6 @@
 		"science": 1
 	},
 	{
-		"name": "Advanced Weapons",
-		"resourceType": "Strategic",
-		"production": 1
-	},
-	{
-		"name": "Electronics",
-		"resourceType": "Luxury"
-	},
-	{
 		"name": "Appliances",
 		"resourceType": "Luxury"
 	}
