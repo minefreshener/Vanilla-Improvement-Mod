@@ -356,7 +356,7 @@
 		"name": "Landship",
 		"unitType": "Armored",
 		"movement": 4,
-		"strength": 60,
+		"strength": 65,
 		"cost": 350,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Tank",
