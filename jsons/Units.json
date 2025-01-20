@@ -365,6 +365,19 @@
 		"attackSound": "tankshot"
 	},
 	{
+		"name": "Armored Car",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 55,
+		"cost": 300,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Can move after attacking","Consumes [1] [Iron]","[-25]% Strength <vs cities> <when attacking>",
+			"[+25]% Strength <after discovering [Combined Arms]>"],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Anti-Aircraft Gun",
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
@@ -591,19 +604,6 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]"],
 		"promotions": ["[Cossack] ability"],
 		"attackSound": "shot"
-	},
-	{
-		"name": "Armored Car",
-		"unitType": "Armored",
-		"movement": 3,
-		"strength": 55,
-		"cost": 300,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Mechanized Infantry",
-		"obsoleteTech": "Mobile Tactics",
-		"uniques": ["Can move after attacking","Consumes [1] [Iron]","[-25]% Strength <vs cities> <when attacking>",
-			"[+25]% Strength <after discovering [Combined Arms]>"],
-		"attackSound": "tankshot"
 	},
 	{
 		"name": "Rifleman",
