@@ -243,7 +243,7 @@
 		"name": "March",
 		"prerequisites": ["Accuracy III","Barrage III","Shock III","Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted","armored","Mech"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted","Armored","Mech"],
         "column": 10,
         "row": 3
 	},
