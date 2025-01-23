@@ -2,11 +2,11 @@
 	{
 		"name": "Defense Satellite",
 		"unitType": "Bomber",
-		"movement": 1,
-		"strength": 50,
-		"rangedStrength": 50,
-		"range": 6,
-		"interceptRange": 6,
+		"movement": 10,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 10,
+		"interceptRange": 10,
 		"cost": 200,
 		"requiredTech": "Satellites",
 		"uniques": ["Satellite",
@@ -18,7 +18,7 @@
 			"Consumes [1] [Circuits]","Consumes [1] [Power]","Damage taken from interception reduced by [100]%",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "MissileLaunch"
+		"attackSound": "missile"
 	},
 		{
 		"name": "Combat Drone",
