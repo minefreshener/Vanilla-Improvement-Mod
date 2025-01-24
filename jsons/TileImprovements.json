@@ -53,7 +53,7 @@
   {
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
-		"techRequired": "Rerigeration",
+		"techRequired": "Replaceable Parts",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	}
