@@ -739,6 +739,8 @@
 		"unitType": "Ranged Gunpowder",
 		"movement": 4,
 		"strength": 20,
+		"range": 1,
+		"rangedStrength": 25,
 		"cost": 185,
 		"requiredTech": "Gunpowder",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
