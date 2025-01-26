@@ -44,6 +44,14 @@
 		"requiredTech": "Iron Working"
 	},
 	{
+		"name": "Arena",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"culture": 1,
+		"uniques": ["New [Sword] units start with [15] Experience [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
 		"name": "Bowyer",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -51,14 +59,14 @@
 		"uniques": ["[+15]% Production when constructing [Archery] units [in this city]"],
 		"requiredTech": "Construction"
 	},
-		{
+	{
 		"name": "Archery Range",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["New [Archery] units start with [15] Experience [in this city]"],
 		"requiredTech": "Construction"
 	},
-		{
+	{
 		"name": "Siege Works",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
