@@ -363,21 +363,51 @@
 			"Provides [1] [Salt]","Consumes [1] [Power]"],
 		"requiredTech": "Ecology"
 	},
-		{
+	{
 		"name": "Fusion Reactor",
 		"cost": 3750,
 		"isNationalWonder": true,
 		"uniques": ["Provides [6] [Power]","Provides [2] [Uranium]","Can only be built <in [Capital] cities>","[+1 Production] [in all cities connected to capital]"],
 		"requiredTech": "Nuclear Fusion"
 	},
-		{
+	{
 		"name": "Megachurch",
 		"faith": 3,
 		"percentStatBonus": {"faith": 10},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Telecommunications",
-		"uniques": ["Only available <in cities with a [Monastery]>","Only available <when religion is enabled>",
-			"[+50]% Natural religion spread [in this city] <when above [0] [Power]>","Consumes [1] [Power]","Only available <after adopting [Organized Religion]>"]
-	}
+		"uniques": ["Only available <when religion is enabled>","[+50]% Natural religion spread [in this city] <when above [0] [Power]>","Consumes [1] [Power]",
+			"Only available <after adopting [Organized Religion]>"]
+	},
+	{
+		"name": "Tomb",
+		"maintenance": 0,
+		"faith": 1,
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Burial Tomb",
+		"replaces": "Tomb",
+		"uniqueTo": "Egypt",
+		"maintenance": 1,
+		"uniques": ["Doubles Gold given to enemy if city is captured"],
+		"faith": 2,
+		"happiness": 2,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "National College",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Education"
+	},
 ]
