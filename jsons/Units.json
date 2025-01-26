@@ -955,7 +955,7 @@
 		"cost": 320,
 		"requiredTech": "Dynamite",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","Must set up to ranged attack","[-1] Sight","[+80]% Strength <after discovering [Ballistics]>",
-			"[+50]% Strength <after discovering [Advanced Ballistics]>"],
+			"[+50]% Strength <after discovering [Advanced Ballistics]>","Can pass through impassable tiles <after discovering [Radar]>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -1293,7 +1293,7 @@
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
 		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>","[+35]% Strength <after discovering [Mobile Tactics]>",
-			"[+1] Movement <after discovering [Mobile Tactics]>"],
+			"[+1] Movement <after discovering [Mobile Tactics]>","Can pass through impassable tiles <after discovering [Telecommunications]>"],
 		"attackSound": "shot"
 	},
 	//////////////// early game elite infantry
@@ -1704,8 +1704,16 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["[+50]% Strength <after discovering [Iron Working]>","[+50]% Strength <after discovering [Chivalry]>",
-			"[+50]% Strength <after discovering [Metallurgy]>"],
+			"[+50]% Strength <after discovering [Metallurgy]>","Can pass through impassable tiles <after discovering [Compass]>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
-	}
+	},
+	//////// civilians
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action","Can pass through impassable tiles <after discovering [Railroads]>"],
+		"cost": 70
+	},
 ]
