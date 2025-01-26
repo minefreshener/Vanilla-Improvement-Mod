@@ -600,5 +600,5 @@
 		"uniques": ["Provides [1] [Porcelain]"],
 		"requiredNearbyImprovedResources": ["Marble"],
 		"requiredTech": "Engineering"
-	},
+	}
 ]
