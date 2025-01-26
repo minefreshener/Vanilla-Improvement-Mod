@@ -408,6 +408,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Drama and Poetry"
 	},
+	////////// improved vanilla buildings
 	{
 		"name": "National College",
 		"cost": 125,
@@ -418,6 +419,7 @@
 		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Education"
 	},
+	//////////// luxury resource buildings
 	{
 		"name": "Furrier",
 		"maintenance": 1,
@@ -600,5 +602,49 @@
 		"uniques": ["Provides [1] [Porcelain]"],
 		"requiredNearbyImprovedResources": ["Marble"],
 		"requiredTech": "Engineering"
+	},
+	//////////// natural wonder buildings
+	{
+		"name": "Research Great Barrier Reef",
+		"isWonder": true,
+		"culture": 2,
+		"percentStatBonus": { "science": 20 },
+		"requiredTech": "Plastics",
+		"uniques": ["Must have an owned [Great Barrier Reef] within [3] tiles",
+			"[-1 Gold, -2 Food, -1 Production, +4 Science] from [Great Barrier Reef] tiles [in all cities]"]
+	},
+	{
+		"name": "Yellowstone Park",
+		"isWonder": true,
+		"happiness": 2,
+		"percentStatBonus": { "science": 20 },
+		"requiredTech": "Biology",
+		"uniques": ["Must have an owned [Old Faithful] within [3] tiles",
+			"[-2 Science, +2 Happiness] from [Old Faithful] tiles [in all cities]","[+4 Culture] <for [America] Civilizations>"]
+	},
+	{
+		"name": "Loot The Golden City",
+		"isWonder": true,
+		"Gold": 10,
+		"requiredTech": "Astronomy",
+		"uniques": ["Must have an owned [El Dorado] within [3] tiles",
+			"[-5 Culture, +5 Gold] from [El Dorado] tiles [in all cities]","Unbuildable <if [Reinhabit The Golden City] is constructed>"]
+	},
+	{
+		"name": "Reinhabit The Golden City",
+		"isWonder": true,
+		"gold": 5,
+		"requiredTech": "Industrialization",
+		"uniques": ["Must have an owned [El Dorado] within [3] tiles",
+			"[+3 Culture, +4 Food] from [El Dorado] tiles [in all cities]","Unbuildable <if [Loot The Golden City] is constructed>"]
+	},
+	{
+		"name": "Siphon The Fountain Of Youth",
+		"isWonder": true,
+		"food": 5,
+		"percentStatBonus": { "happiness": 20 },
+		"requiredTech": "Biology",
+		"uniques": ["Must have an owned [Fountain of Youth] within [3] tiles",
+			"[+5 Food] from [Fountain of Youth] tiles [in all cities]"]
 	}
 ]
