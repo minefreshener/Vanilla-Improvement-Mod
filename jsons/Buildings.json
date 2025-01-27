@@ -206,6 +206,17 @@
 			"Only available <after adopting [Republic]>"]
 	},
 	{
+		"name": "Magistrate",
+		"replaces": "Congress",
+		"uniqueTo": "Keldura",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+2 Culture] per [3] population [in all cities]","[-10]% Unhappiness from [Population] [in all cities]",
+			"Can only be built <in [Capital] cities>","Destroyed when the city is captured",
+			"Only available <after adopting [Republic]>"]
+	},
+	{
 		"name": "Parliament",
 		"replaces": "Congress",
 		"uniqueTo": "England",
@@ -232,6 +243,16 @@
 		"uniques": ["Great General provides double combat bonus","[+20]% Production when constructing [Military] units [in all cities]",
 			"Can only be built <in [Capital] cities>","Only available <in cities without a [Senate]>","Destroyed when the city is captured",
 			"Only available <after adopting [Legalism]>"]
+	},
+	{
+		"name": "Council Of Elders",
+		"replaces": "Council",
+		"uniqueTo": "Keldura",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+10]% Production when constructing [Military] units [in all cities]","Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured","Only available <after adopting [Legalism]>","[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]"]
 	},
 	{
 		"name": "War Council",
