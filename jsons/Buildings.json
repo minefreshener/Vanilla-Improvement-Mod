@@ -1,32 +1,5 @@
 [
-	{
-		"name": "Gunsmith",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"production": 1,
-		"uniques": ["[+15]% Production when constructing [Ranged Gunpowder] units [in this city]","[+15]% Production when constructing [Gunpowder] units [in this city]"],
-		"requiredTech": "Gunpowder"
-	},
-	{
-		"name": "Gun Range",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["New [Gunpowder] units start with [15] Experience [in this city]"],
-		"requiredTech": "Rifling"
-	},
-		{
-		"name": "Mining Tunnels",
-		"maintenance": 1,
-		"production": 3,
-		"hurryCostModifier": 25,
-		"uniques": [
-			"[+1 Science] from [Mountain] tiles [in this city]",
-			"[+1 Production] from [Mountain] tiles [in this city]",
-			"[+1 Production] from [Mine] tiles [in this city]"
-		],
-		"requiredNearbyImprovedResources": ["Iron","Aluminum","Silver","Gold Ore","Uranium","Gems","Copper"],
-		"requiredTech": "Dynamite"
-	},
+	//////////// other unit training buildings
 	{
 		"name": "Mech Factory",
 		"hurryCostModifier": 25,
@@ -36,61 +9,6 @@
 		"requiredTech": "Robotics"
 	},
 	{
-		"name": "Weaponsmith",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"production": 1,
-		"uniques": ["[+15]% Production when constructing [Sword] units [in this city]"],
-		"requiredTech": "Iron Working"
-	},
-	{
-		"name": "Arena",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"culture": 1,
-		"uniques": ["New [Sword] units start with [15] Experience [in this city]"],
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Bowyer",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"production": 1,
-		"uniques": ["[+15]% Production when constructing [Archery] units [in this city]"],
-		"requiredTech": "Construction"
-	},
-	{
-		"name": "Archery Range",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["New [Archery] units start with [15] Experience [in this city]"],
-		"requiredTech": "Construction"
-	},
-	{
-		"name": "Siege Works",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"production": 1,
-		"uniques": ["[+15]% Production when constructing [Siege] units [in this city]"],
-		"requiredTech": "Engineering"
-	},
-	{
-		"name": "Artillery Range",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"science": 1,
-		"uniques": ["New [Siege] units start with [15] Experience [in this city]"],
-		"requiredTech": "Military Science"
-	},
-		{
-		"name": "Horse Farm",
-		"hurryCostModifier": 25,
-		"maintenance": 2,
-		"production": 2,
-		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]","Provides [1] [Horses]"],
-		"requiredTech": "Civil Service"
-	},
-	{
 		"name": "Tourney Field",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -98,13 +16,30 @@
 		"uniques": ["New [Mounted] units start with [15] Experience [in this city]","New [Feudal] units start with [15] Experience [in this city]"],
 		"requiredTech": "Chivalry"
 	},
-			{
+	{
 		"name": "Feudal Estate",
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"culture": 2,
 		"uniques": ["[+33]% Production when constructing [Feudal] units [in this city]","New [Feudal] units start with [30] Experience [in this city]"],
 		"requiredTech": "Chivalry"
+	},
+	{
+		"name": "Horse Farm",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"production": 2,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]","Provides [1] [Horses]"],
+		"requiredTech": "Civil Service"
+	},
+	//////////// unit production buildings
+	{
+		"name": "Gunsmith",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"production": 1,
+		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]"],
+		"requiredTech": "Gunpowder"
 	},
 	{
 		"name": "Docklands",
@@ -115,28 +50,12 @@
 		"requiredTech": "Compass"
 	},
 	{
-		"name": "Naval Military Academy",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"culture": 1,
-		"uniques": ["New [Water] units start with [15] Experience [in this city]"],
-		"requiredTech": "Navigation"
-	},
-	{
 		"name": "Munitions Plant",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"production": 1,
 		"uniques": ["[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
 		"requiredTech": "Ballistics"
-	},
-	{
-		"name": "Heavy Weapons Range",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"science": 1,
-		"uniques": ["New [Ranged Gunpowder] units start with [15] Experience [in this city]"],
-		"requiredTech": "Industrialization"
 	},
 	{
 		"name": "Aircraft Factory",
@@ -147,14 +66,6 @@
 		"requiredTech": "Radar"
 	},
 	{
-		"name": "Pilot Training Facility",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"culture": 1,
-		"uniques": ["New [Air] units start with [15] Experience [in this city]","New [Helicopter] units start with [15] Experience [in this city]"],
-		"requiredTech": "Flight"
-	},
-	{
 		"name": "Submarine Base",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -162,7 +73,7 @@
 		"uniques": ["[+15]% Production when constructing [Submarine] units [in this city]"],
 		"requiredTech": "Refrigeration"
 	},
-		{
+	{
 		"name": "Armor Factory",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -171,20 +82,99 @@
 		"requiredTech": "Combustion"
 	},
 	{
-		"name": "Tank Training Facility",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"science": 1,
-		"uniques": ["New [Armored] units start with [15] Experience [in this city]"],
-		"requiredTech": "Combined Arms"
-	},
-	{
 		"name": "Missile Factory",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"production": 1,
 		"uniques": ["[+15]% Production when constructing [Missile] units [in this city]"],
 		"requiredTech": "Advanced Ballistics"
+	},
+	{
+		"name": "Siege Works",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"production": 1,
+		"uniques": ["[+15]% Production when constructing [Siege] units [in this city]"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Bowyer",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"production": 1,
+		"uniques": ["[+15]% Production when constructing [Archery] units [in this city]"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Weaponsmith",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"production": 1,
+		"uniques": ["[+15]% Production when constructing [Sword] units [in this city]"],
+		"requiredTech": "Iron Working"
+	},
+	////////// unit experience buildings
+	{
+		"name": "Gun Range",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Gunpowder] units start with [15] Experience [in this city]"],
+		"requiredTech": "Rifling"
+	},
+	{
+		"name": "Arena",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"happiness": 1,
+		"uniques": ["New [Sword] units start with [15] Experience [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Archery Range",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Archery] units start with [15] Experience [in this city]"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Artillery Range",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"science": 1,
+		"uniques": ["New [Siege] units start with [15] Experience [in this city]"],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Naval Military Academy",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"culture": 1,
+		"uniques": ["New [Water] units start with [15] Experience [in this city]"],
+		"requiredTech": "Navigation"
+	},
+	{
+		"name": "Heavy Weapons Range",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"science": 1,
+		"uniques": ["New [Ranged Gunpowder] units start with [15] Experience [in this city]"],
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Pilot Training Facility",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"culture": 1,
+		"uniques": ["New [Air] units start with [15] Experience [in this city]","New [Helicopter] units start with [15] Experience [in this city]"],
+		"requiredTech": "Flight"
+	},
+	{
+		"name": "Tank Training Facility",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"science": 1,
+		"uniques": ["New [Armored] units start with [15] Experience [in this city]"],
+		"requiredTech": "Combined Arms"
 	},
 		{
 		"name": "Congress",
@@ -298,6 +288,19 @@
 			"[+1 Gold] per [3] population [in this city]","[+1 Happiness, +1 Gold] [in this city] <when above [0] [Power]>",
 			"[+1 Gold] [in this city] <with [Wheat]>","[+1 Gold] [in this city] <with [Incense]>"],
 		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Mining Tunnels",
+		"maintenance": 1,
+		"production": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Science] from [Mountain] tiles [in this city]",
+			"[+1 Production] from [Mountain] tiles [in this city]",
+			"[+1 Production] from [Mine] tiles [in this city]"
+		],
+		"requiredNearbyImprovedResources": ["Iron","Aluminum","Silver","Gold Ore","Uranium","Gems","Copper"],
+		"requiredTech": "Dynamite"
 	},
 	{
 		"name": "Communications Network",
