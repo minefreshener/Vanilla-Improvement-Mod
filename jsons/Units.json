@@ -373,7 +373,7 @@
 	{
 		"name": "Galley",
 		"unitType": "Melee Water",
-		"movement": 3,
+		"movement": 2,
 		"strength": 10,
 		"cost": 40,
 		"uniques": ["Cannot enter ocean tiles"],
@@ -381,6 +381,24 @@
 		"obsoleteTech": "Compass",
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
+	},
+	{
+		"name": "Bireme",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Phoenicia",
+		"replaces": "Galley",
+		"movement": 3,
+		"strength": 10,
+		"rangedStrength": 10,
+		"range": 1,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"obsoleteTech": "Compass",
+		"upgradesTo": "Galleass",
+		"uniques": ["Cannot enter ocean tiles"],
+		"promotions": ["Favorable Winds"],
+		"hurryCostModifier": 20,
+		"attackSound": "arrow"
 	},
 	////////// helicopters
 	{
@@ -595,6 +613,54 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Rough terrain penalty","Consumes [1] [Horses]"],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Heavy Chariot",
+		"unitType": "Sword",
+		"uniqueTo": "The Hittites",
+		"replaces": "Chariot Archer",
+		"movement": 3,
+		"strength": 17,
+		"cost": 170,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": ["Shock I"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [Horses]","[+25]% Strength <vs [Sword] units>",
+			"Rough terrain penalty","[-33]% Strength <vs cities>"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Tarantine Cavalry",
+		"unitType": "Archery",
+		"uniqueTo": "Epirus",
+		"replaces": "Chariot Archer",
+		"movement": 4,
+		"strength": 16,
+		"rangedStrength": 16,
+		"cost": 70,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Crossbowman",
+		"obsoleteTech": "Machinery",
+		"promotions": ["Formation I"],
+		"uniques": ["Consumes [1] [Horses]","Can move after attacking","[-25]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Withdraws before melee combat <with [50]% chance>"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Assyrian Chariot",
+		"unitType": "Archery",
+		"replaces": "Chariot Archer",
+		"uniqueTo": "Assyria",
+		"movement": 5,
+		"strength": 10,
+		"rangedStrength": 15,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Consumes [1] [Horses]","Can move after attacking","No defensive terrain bonus", "Rough terrain penalty"],
+		"attackSound": "arrow"
+	},
 	/////////////// ranged cavalry
 	{
 		"name": "Dragoon",
@@ -790,6 +856,20 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
+	{
+		"name": "Azatavrear",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Armenia",
+		"movement": 4,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Feudal","[+200]% maintenance costs","Can move after attacking","Consumes [1] [Horses]"],
+		"attackSound": "horse"
+	},
 ////////////////// melee cavalry
 	{
 		"name": "Cavalry",
@@ -930,6 +1010,36 @@
 			"[+25]% Strength <after discovering [Metal Casting]>","Consumes [1] [Horses]"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
+	},
+	{
+		"name": "Artaxiad Noble",
+		"unitType": "Mounted",
+		"uniqueTo": "Armenia",
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 18,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Steel",
+		"uniques": ["Can move after attacking","[+25]% Strength <after discovering [Chivalry]>","Consumes [1] [Horses]"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Ptolemaic Elephant",
+		"unitType": "Mounted",
+		"uniqueTo": "Epirus",
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 27,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"attackSound": "elephant"
 	},
 	/////////// artillery
 	{
@@ -1247,6 +1357,36 @@
 		"uniques": ["[+25]% Strength <after discovering [Construction]>"],
 		"attackSound": "throw"
 	},
+	{	
+		"name": "Desert Archer",
+		"replaces": "Archer",
+		"unitType": "Archery",
+		"uniqueTo": "Himyar",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 11,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"promotions": ["Accuracy I","Desert Fighting"],
+		"attackSound": "arrow"
+	},
+	{	
+		"name": "Nomadic Archer",
+		"replaces": "Archer",
+		"unitType": "Archery",
+		"uniqueTo": "Scythia",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 10,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"promotions": ["Steppe Hunter"],
+		"attackSound": "arrow"
+	},
 	{
 		"name": "Skirmisher",
 		"unitType": "Archery",
@@ -1438,6 +1578,34 @@
 		"upgradesTo": "Longswordsman",
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Maccabee",
+		"unitType": "Sword",
+		"uniqueTo": "Israel",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 15,
+		"cost": 40,
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["Invisible to non-adjacent units","Earn [25]% of killed [Military] unit's [Strength] as [Faith]"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Jagunjagun",
+		"unitType": "Sword",
+		"uniqueTo": "Nok",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 10,
+		"cost": 32,
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques": ["Ignores terrain cost","May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit"
+	},
 	////////////// Late game standard Infantry
 	{
 		"name": "Future Infantry",
@@ -1613,6 +1781,20 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Bandeirante",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Brazil",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": ["Woods Warfare","Woodsman"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Pikeman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -1696,6 +1878,37 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Phalanx",
+		"unitType": "Sword",
+		"uniqueTo": "Sumeria",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 15,
+		"cost": 150,
+		"hurryCostModifier": 5,
+		"requiredTech": "Mining",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+25]% Strength <vs [Sword] units>","[+100]% Strength <vs [Mounted] units>","[+25]% Strength <when defending>"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Serpent Priest",
+		"unitType": "Sword",
+		"uniqueTo": "The Olmec",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 60,
+		"hurryCostModifier": 20,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+15]% Strength bonus for [Sword] units within [1] tiles","Heals [25] damage if it kills a unit",
+			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
@@ -1705,6 +1918,20 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["[+50]% Strength <after discovering [Iron Working]>","[+50]% Strength <after discovering [Chivalry]>",
 			"[+50]% Strength <after discovering [Metallurgy]>","Can pass through impassable tiles <after discovering [Compass]>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Slave Hunter",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Macrobia",
+		"movement": 3,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["[1] additional attacks per turn","May capture killed [Military] units","[+50]% Strength <after discovering [Iron Working]>",
+			"[+50]% Strength <after discovering [Chivalry]>","[+50]% Strength <after discovering [Metallurgy]>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
