@@ -269,5 +269,18 @@
 		"unitTypes": ["Sword","Gunpowder","Mounted"],
         "column": 25,
         "row": 2
-	}
+	},
+	{
+        "name": "Steppe Hunter",
+        "uniques": ["Can receive bonus movement promotion"],
+	},
+    	{
+        "name": "Horseback Rider",
+        "prerequisites": ["Steppe Hunter"],
+        "uniques": ["[+2] Movement"],
+	},
+	{
+        "name": "Favorable Winds",
+        "uniques": ["Can move after attacking"]
+    	}
 ]
